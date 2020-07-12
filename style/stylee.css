@@ -1,0 +1,86 @@
+body{margin: 0;padding: 0;}
+/*.container{width: 1700px;margin: auto;}
+
+/*Header*/
+header{background: url("../Images/web.png") no-repeat fixed center center;background-size: cover;color: white;text-align: center;}
+header .back{background-color: rgba(3,3,3,0.4);}
+header nav{display: inline-block;width: 100%;position: fixed;top: 0;left: 0;}
+header nav ul{list-style: none;padding-left: 0;margin: 0;}
+header nav ul li{float: right;padding: 30px 20px;}
+header nav ul li a{text-decoration: none;color: white;}
+header nav ul li a:hover{color: #20b1c4;}
+header nav h2{margin: 0;float: left;padding: 30px 20px;}
+header h2{}
+header .entro{padding-bottom: 241px;padding-top: 200px;}
+header .entro h1{font-size: 50px;}
+header .entro h1 span{color: #20b1c4;}
+header .entro p{}
+header .entro button{background-color: transparent;padding: 10px 20px;border: 2px solid #20b1c4;color: #20b1c4;cursor: pointer;font-size: 15px; transition: 1s;}
+header .entro button:hover{background-color: #20b1c4;border-radius: 20px;color: white;}
+/*Header*/
+
+/*service*/
+.service{background-color: #053740;padding-top: 50px;padding-bottom: 50px;color: #20b1c4;}
+.service .serr{display: grid;grid-template-columns: auto auto auto auto;grid-column-gap: 20px;}
+.service .ser p{color: white;text-align: center;}
+.service .ser{text-align: center;}
+.service .ser .cover{border-radius: 50%;background-color: #20b1c4;text-align: center;display: inline-block;padding: 15px;}
+.service .ser i{color: #053740;}
+.service .ser h3{text-align: center;}
+.service .container > p{text-align: center;margin-bottom: 50px;}
+.service .container > h2{text-align: center;margin: 0;}
+/*service*/
+
+/*about*/
+.about{background-color: #1facc0;color: white;padding-top: 70px;padding-bottom: 70px;}
+.about .container > h2{text-align: center;margin-top: 0px;margin-bottom: 30px;}
+.about .container > p{text-align: center;margin-bottom: 70px;}
+.about .grid-con{display: grid;grid-template-columns: auto auto;grid-column-gap: 50px;}
+.about .grid-con img{width: 100%;height: auto;}
+.about .grid-con h3{margin: 10px 0;color: #053740;font-size: 18px;}
+.about .grid-con p{font-size: 14px;}
+/*about*/
+
+/*Our doctors*/
+.our{background-color: #053740;padding-top: 70px;padding-bottom: 120px;}
+.our .container > h2{text-align: center;color:#1facc0; }
+.our .container > p{text-align: center;color: #fff;}
+.our .btn-g{text-align: center;margin-top:50px;}
+.our button{background-color: transparent;border: 1px solid #1facc0;padding: 10px;color: #1facc0;transition: .5s ease;}
+.our button:hover{color: #053740;background-color: #1facc0;}
+.our .gala{display: grid;grid-template-columns: auto auto auto auto;grid-row-gap: 50px;grid-column-gap:10px;margin-top: 40px;}
+.our .gala img{width: 100%;height: auto;}
+/*Our doctors*/
+
+/*Meet The team*/
+.meet{padding-bottom: 70px;padding-top: 70px;background-color: #1facc0;color:#fff;}
+.meet h2{text-align: center;text-transform: uppercase;}
+.meet .container > p{text-align: center;margin-bottom: 70px;}
+.meet .gall{display: grid ;grid-template-columns: auto auto auto auto;grid-column-gap: 30px;}
+.meet .gall .car{width: 150px;}
+.meet .gall .car .str{width: 100%;text-align: center;}
+.meet .gall .car img{width: 150px;height: auto;border-radius: 50%;}
+.meet .gall .car p{text-align: center;text-overflow: ellipsis;}
+.meet .gall .car .h{text-align: center;color: #053740;}
+/*Meet The team*/
+
+/*get*/
+.get{background: url("../Images/audience.jpg") fixed center center;text-align: center;background-size: cover;}
+.get .back{background-color:rgba(0,0,52,.6);padding-bottom: 70px;padding-top: 70px;}
+.get h2{text-align: center;color: #1facc0;}
+.get p{text-align: center;margin-bottom: 80px;color: #fff;}
+.get .gri{display: grid;grid-template-columns: auto auto;grid-column-gap: 25px;}
+.get .gri input{border: none;background-color: rgba(10,10,10,.5);color: #fff;padding: 10px;}
+.get textarea{border: none;background-color: rgba(10,10,10,.5);color: #fff;padding: 10px;width: 100%;margin-top: 20px;height: 150px;margin-bottom: 30px;}
+.get button{padding: 10px;background-color: transparent;border: 1px #1facc0 solid;color: #1facc0;margin-bottom: 70px;transition: .5s ease;}
+.get button:hover{background-color: #1facc0;color: #fff;}
+.get .ico{color: white;/*display: grid;grid-template-columns: auto auto auto auto auto auto;width: 500px;*/}
+.get .ico i{margin: 0 10px;color: #fff;transition: .5s ease;}
+.get .ico i:hover{color: #1facc0;}
+/*get*/
+
+/*footer*/
+footer{background-color: #053740;padding: 20px;text-align: center;color: white;}
+/*footer*/
+
+h2{text-transform: uppercase;}
